@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:Verdana;
+  background-color: rgb(46, 3, 87);
+  color:#aaaaaa;
+}
+header{
+  background-color: rgb(46, 3, 87);
+  padding:5px;
+  text-align:center;
+}
+.search {
+  background-color: rgb(132, 52, 148);
+  display: flex;
+}
+.search input {
+  background-color: rgb(31, 8, 36);
+  color: rgb(255, 255, 255);
+}
+.search img:hover {
+  cursor: pointer;
+}
+main {
+  overflow:auto;
+}
+nav {
+  width: 97%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align:center;
+  background-color: rgb(113, 18, 201);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+nav a {
+  padding:8px;
+  margin-top:7px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  display:block;
+  width:100%;
+  background-color: rgb(113, 18, 201);
+  color: white;
+}
+nav a:hover{
+  color: cyan;
+}
+section {
+  width:60%;
+  padding:0 20px;
+  float: left;
+}
+.description_name {
+  color: black;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(172, 123, 218);
+}
+.description {
+  color: black;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  overflow: auto;
+  background-color: rgb(172, 123, 218);
+}
+aside {
+  background-color:#6030e2;
+  float: right;
+  width:30%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+footer{
+  background-color:#e5e5e5;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  nav, section, aside {
+    width:100%;
+  }
+}
