@@ -5,6 +5,10 @@ body {
   font-family:Verdana;
   background-color: rgb(46, 3, 87);
   color:#aaaaaa;
+  margin:0;
+  padding:0;
+  text-align:center;
+
 }
 header{
   background-color: rgb(46, 3, 87);
