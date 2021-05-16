@@ -19,9 +19,9 @@ function startGame(e) {
 	if (userNumber != '') {
 		attempts--;
 		inputNumber.value = '';
-		// console.log('You Entered: ', userNumber);
-		// console.log('Correct Answer: ', generatedNumber);
-		// console.log('Attempts Remaining: ', attempts);
+		console.log('You Entered: ', userNumber);
+		console.log('Correct Answer: ', generatedNumber);
+		console.log('Attempts Remaining: ', attempts);
 		gameLogic(userNumber);
 	}
 	else {
