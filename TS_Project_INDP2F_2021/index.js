@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, '/pages')));
 app.use(express.static(path.join(__dirname, '/imgs')));
 app.use(express.static(path.join(__dirname, '/')));
 app.get('/', function (req, res) {
-	res.sendFile(path.join(__dirname, '/pages/index.html'));
+	res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 app.get('/number_guesser', function (req, res) {
