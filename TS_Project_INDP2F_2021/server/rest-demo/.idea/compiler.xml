@@ -9,5 +9,13 @@
         <module name="rest-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rest-demo" options="-endorseddirs C:\Users\MSalaani\Documents\SUP20\2eme\Sem2\P2\TS\TS_Project_INDP2F_2021\rest-demo\target/endorsed" />
+    </option>
   </component>
 </project>
